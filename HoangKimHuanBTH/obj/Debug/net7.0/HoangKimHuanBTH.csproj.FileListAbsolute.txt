@@ -1,0 +1,8 @@
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.csproj.AssemblyReference.cache
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.AssemblyInfoInputs.cache
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.AssemblyInfo.cs
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.csproj.CoreCompileInputs.cache
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.MvcApplicationPartsAssemblyInfo.cache
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.RazorAssemblyInfo.cache
+E:\NetCore\HoangKimHuanBTH797\HoangKimHuanBTH\obj\Debug\net7.0\HoangKimHuanBTH.RazorAssemblyInfo.cs
