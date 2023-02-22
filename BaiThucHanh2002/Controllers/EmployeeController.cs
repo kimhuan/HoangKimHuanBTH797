@@ -4,11 +4,11 @@ using BaiThucHanh2002.Models;
 
 namespace BaiThucHanh2002.Controllers;
 
-public class StudentController : Controller
+public class EmployeeController : Controller
 {
-    private readonly ILogger<StudentController> _logger;
+    private readonly ILogger<EmployeeController> _logger;
 
-    public StudentController(ILogger<StudentController> logger)
+    public EmployeeController(ILogger<EmployeeController> logger)
     {
         _logger = logger;
     }
@@ -18,7 +18,7 @@ public class StudentController : Controller
         return View();
     }
 
-    public IActionResult About()
+    public IActionResult Show()
     {
         return View();
     }
