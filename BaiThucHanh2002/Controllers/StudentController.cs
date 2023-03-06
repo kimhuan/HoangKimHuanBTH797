@@ -15,8 +15,19 @@ public class StudentController : Controller
 
     public IActionResult Index()
     {
+
         return View();
     }
+
+    [HttpPost]
+    public IActionResult Index(string FullName)
+    {
+        string stdRessult = "Hello + FullName";
+        ViewBag.abc = stdRessult;
+        return View();
+    }
+
+
 
     public IActionResult About()
     {
