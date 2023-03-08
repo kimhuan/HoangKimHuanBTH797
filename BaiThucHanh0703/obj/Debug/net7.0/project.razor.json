@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\BaiThucHanh2002.csproj",
+  "SerializedFilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\BaiThucHanh0703.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,55 +18642,55 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "BaiThucHanh2002",
+  "RootNamespace": "BaiThucHanh0703",
   "Documents": [
     {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Employee\\Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Student\\About.cshtml",
-      "TargetPath": "Views\\Student\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Home\\Index.cshtml",
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Student\\Index.cshtml",
-      "TargetPath": "Views\\Student\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\_ViewImports.cshtml",
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh2002\\Views\\Shared\\Error.cshtml",
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Student\\Tinhtong.cshtml",
+      "TargetPath": "Views\\Student\\Tinhtong.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Student\\Index.cshtml",
+      "TargetPath": "Views\\Student\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Student\\Phuongtrinhbac2.cshtml",
+      "TargetPath": "Views\\Student\\Phuongtrinhbac2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e9CnsG/+xfpmD63JcRgiRCO5JtrMFWY4zRj/q1gUWW4=",
+  "Hash": "fe4Q+UZ52Xlxb2KewALlKGWr2hI4gA+rIrFibjGXIxk=",
   "Source": "BaiThucHanh0703",
   "BasePath": "_content/BaiThucHanh0703",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\wwwroot\\css\\w3.css",
+      "SourceId": "BaiThucHanh0703",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\wwwroot\\",
+      "BasePath": "_content/BaiThucHanh0703",
+      "RelativePath": "css/w3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\w3.css"
     },
     {
       "Identity": "E:\\NetCore\\HoangKimHuanBTH797\\BaiThucHanh0703\\wwwroot\\favicon.ico",
