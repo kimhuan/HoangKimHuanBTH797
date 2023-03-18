@@ -5,4 +5,17 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <form asp-action="Index">
+        <label>Hệ số A:</label>
+        <input type="text" name="a">
+        <br>
+        <label>Hệ số B:</label>
+        <input type="text" name="a">
+        <br>
+        <label>Hệ số C:</label>
+        <input type="text" name="a">
+        <br>
+        <input type="Submit" value="Giai Phuong Trinh">
+    </form>
 </div>
+<h2>@ViewBag.ketqua</h2>
