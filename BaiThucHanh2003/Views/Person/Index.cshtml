@@ -1,0 +1,36 @@
+@model IEnumerable<BaiThucHanh2003.Models.Person>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>danh sách</h1>
+<form asp-action="Index" method="get" class="form-inline">
+    Nhập tên<input type="text" name="person"/>
+    <button>Tìm kiếm-</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

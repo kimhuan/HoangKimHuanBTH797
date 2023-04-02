@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using BaiThucHanh2003.Data;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 

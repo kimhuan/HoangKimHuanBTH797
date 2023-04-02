@@ -1,0 +1,16 @@
+@model IEnumerable<BaiThucHanh2003.Models.Employee>
+<table class="table table-all">
+<tr>
+     <th>EmployeeID</th>
+    <th>EmployeeName</th>
+    <th>PhoneNumber</th>
+</tr>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(m => item.EmployeeID)</td>
+        <td>@Html.DisplayFor(m => item.EmployeeName)</td>
+        <td>@Html.DisplayFor(m => item.PhoneNumber)</td>
+    </tr>
+}
+</table>
