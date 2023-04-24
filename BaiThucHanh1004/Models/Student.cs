@@ -7,13 +7,15 @@ namespace BaiThucHanh1004.Models
     public class Student
     {
         [Key]
+
         public string StudentID { get; set; }
         
         public string FullName { get; set; }
+
+        public string FacultyID { get; set; }
+        [ForeignKey("FacultyID")]
         
-        public string Address { get; set; }
-        
-        public string PhoneNumber { get; set; }
+        public Faculty? Faculty { get; set; }
         
     }
 }

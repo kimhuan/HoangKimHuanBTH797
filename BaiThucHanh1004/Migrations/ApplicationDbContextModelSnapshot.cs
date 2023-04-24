@@ -30,12 +30,26 @@ namespace BaiThucHanh1004.Migrations
                     b.ToTable("Employee");
                 });
 
+            modelBuilder.Entity("BaiThucHanh1004.Models.Faculty", b =>
+                {
+                    b.Property<string>("FacultyID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FacultyName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("FacultyID");
+
+                    b.ToTable("Facultys");
+                });
+
             modelBuilder.Entity("BaiThucHanh1004.Models.Student", b =>
                 {
                     b.Property<string>("StudentID")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Address")
+                    b.Property<string>("FacultyID")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -43,13 +57,22 @@ namespace BaiThucHanh1004.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.HasKey("StudentID");
 
+                    b.HasIndex("FacultyID");
+
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("BaiThucHanh1004.Models.Student", b =>
+                {
+                    b.HasOne("BaiThucHanh1004.Models.Faculty", "Faculty")
+                        .WithMany()
+                        .HasForeignKey("FacultyID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Faculty");
                 });
 #pragma warning restore 612, 618
         }
